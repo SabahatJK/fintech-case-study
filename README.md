@@ -35,10 +35,7 @@ Stripe offers two integration methods
     <sup><a href="#3">[3]</a></sup>
     
     * Connect
-    Stripe Connect is a set of programmable APIs and tools that facilitate payments, build a marketplace, and payout sellers or service providers globally—all while having Stripe handles payments compliance. 
-    
-    <sup><a href="#4">[4]</a></sup>
-    It  basically routes payments between multiple parties.
+    Stripe Connect is a set of programmable APIs and tools that facilitate payments, build a marketplace, and payout sellers or service providers globally—all while having Stripe handles payments compliance.<sup><a href="#4">[4]</a></sup>It  basically routes payments between multiple parties.
     * Billing 
 Stripe Billing is the fastest way for businesses to bill customers with subscriptions or invoices. Captures more revenue, supports new products or business models and accepts recurring payments globally. <sup><a href="#5">[5]</a></sup>
 
@@ -47,10 +44,12 @@ Stripe Billing is the fastest way for businesses to bill customers with subscrip
     * Radar
     Stripe Radar is a tool that uses adaptable machine learning to fight fraud and increase the conversion rate of transactions using the Stripe network. It is offered as built-in, with no additional set up. Radar helps to distinguish fraudsters from legitimate customers and applies Dynamic 3D Secure to high-risk payments.
     * Sigma
-    Stripe Sigma is an analytical tool that makes transactional data available within an interactive SQL environment in the Dashboard. Sigma creates fully customized reports using information about payments, subscriptions, customers, payouts, and more.<sup>[(Stripe Radar)](https://stripe.com/docs/radar)</sup>
+    Stripe Sigma is an analytical tool that makes transactional data available within an interactive SQL environment in the Dashboard. Sigma creates fully customized reports using information about payments, subscriptions, customers, payouts, and more.<sup><a href="#6">[6]</a></sup>
+        
     *Dashboard:
-    Stripe Dashboard offers a user interface to manage and configure the Stripe account. It is used to manages payments and refunds, respond to disputes, monitor integration, and more. <sup>[(Stripe Dashboard)](https://stripe.com/docs/dashboard)</sup>
-    * Atlas
+    Stripe Dashboard offers a user interface to manage and configure the Stripe account. It is used to manages payments and refunds, respond to disputes, monitor integration, and more..<sup><a href="#7">[7]</a></sup> 
+    
+    *Atlas
     Stripe  Atlas is a platform that offers a seamless and safe way to launch a company in the U.S (Delaware) from anywhere in the globe. With just $500, a company can be formed, with no lengthy paperwork, legal complexity, and numerous fees. <sup>[(Stripe Atlas)](https://stripe.com/atlas)</sup><sup> [(Stripe Atlas Docs)](https://stripe.com/docs/atlas)</sup>
     * Climate
     With Stripe Climate, customers can direct a fraction of their revenue to help scale emerging carbon removal technologies in just a few clicks. Join a growing group of ambitious businesses changing the course of carbon removal. <sup>[(Stripe Climate)](https://stripe.com/climate)</sup>
@@ -361,7 +360,12 @@ There can still be disputes between parties despite being a very secure technolo
 <a name="5"></a>5. 
 [Stripe Billing](https://stripe.com/billing)
 
- 
+<a name="6"></a>6. 
+[Stripe Radar](https://stripe.com/radar)
+
+<a name="7"></a>7. 
+[Stripe Dashboard](https://stripe.com/docs/dashboard)
+
 
 
 [fundera](https://www.fundera.com/blog/stripe-vs-braintree#:~:text=Another%20critical%20difference%20between%20Stripe%20vs.%20Braintree%20is,payments,%20and%20groups%20together%20merchants%20when%20conducting%20transactions)
