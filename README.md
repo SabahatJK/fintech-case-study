@@ -23,17 +23,21 @@ A broad overview of services/tools offered by  Stripe are:
 * Products
     * Payments:
     Stripes Payments products accept payments and move money globally with Stripe’s powerful APIs and software solutions designed to helps capture more revenue.
-        <sup>[(Stripe)](https://stripe.com/payments)</sup>
-
+    <sup><a href="#2">[2]</a></sup>
+        
     Stripe provides payment solutions to
     It seamlessly integrates payment processing with online (websites and mobile apps using APIs).  An account can be created in minutes to securely accept payments and funds are deposited directly into the merchant account.  It offers fraud protection and increases authorization rates on every payment using our machine learning and data from millions of businesses. It is available in 35 countries, supports 135+ currencies, and accepts almost all major payment methods. 
 Stripe offers two integration methods
     * Hosted Payment Page: Simply integrate prebuilt checkout page hosted on Stripe using "Stripe Checkout"
     * Fully customized Solution: Complex and Unique checkout pages need more functionality and flexibility.  Stripe offers "Stripe Elements", rich, pre-built UI components to help design and built custom checkout pages as unique as the merchant. 
     * Terminal
-    Stripe Terminal extends the merchant's online presence into the physical world, enabling merchants to build in-person checkout. Built with modern retailers and platforms in mind, Terminal helps unify online and offline channels with flexible developer tools, pre-certified card readers, and cloud-based hardware management. <sup>[(Stripe Terminal)](https://stripe.com/terminal)</sup>
+    Stripe Terminal extends the merchant's online presence into the physical world, enabling merchants to build in-person checkout. Built with modern retailers and platforms in mind, Terminal helps unify online and offline channels with flexible developer tools, pre-certified card readers, and cloud-based hardware management. 
+    <sup><a href="#1">[3]</a></sup>
+    
     * Connect
-    Stripe Connect is a set of programmable APIs and tools that facilitate payments, build a marketplace, and payout sellers or service providers globally—all while having Stripe handles payments compliance. <sup>[(Stripe Connect)]( https://stripe.com/connect)</sup>  It  basically routes payments between multiple parties.
+    Stripe Connect is a set of programmable APIs and tools that facilitate payments, build a marketplace, and payout sellers or service providers globally—all while having Stripe handles payments compliance. 
+    <sup><a href="#4">[4]</a></sup>
+    It  basically routes payments between multiple parties.
     * Billing 
 Stripe Billing is the fastest way for businesses to bill customers with subscriptions or invoices. Captures more revenue, supports new products or business models and accepts recurring payments globally. <sup>[(Stripe Billing)]( https://stripe.com/billing)</sup> 
 * Business Operations
@@ -339,9 +343,21 @@ There can still be disputes between parties despite being a very secure technolo
 
 ## **References**
 
-<a name="1"></a>[1]. 
+<a name="1"></a>1. 
 [crunchbase](https://www.crunchbase.com/organization/stripe/company_financials)
-  
+
+<a name="1"></a>2. 
+[Stripe Payments](https://stripe.com/payments)
+
+<a name="3"></a>3. 
+[Stripe Terminal](https://stripe.com/terminal)
+
+<a name="3"></a>3. 
+[Stripe Connect](https://stripe.com/connect)
+
+
+
+
 [fundera](https://www.fundera.com/blog/stripe-vs-braintree#:~:text=Another%20critical%20difference%20between%20Stripe%20vs.%20Braintree%20is,payments,%20and%20groups%20together%20merchants%20when%20conducting%20transactions)
 https://www.cbinsights.com/research/report/
 
