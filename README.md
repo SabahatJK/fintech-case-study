@@ -32,14 +32,17 @@ Stripe offers two integration methods
     * Fully customized Solution: Complex and Unique checkout pages need more functionality and flexibility.  Stripe offers "Stripe Elements", rich, pre-built UI components to help design and built custom checkout pages as unique as the merchant. 
     * Terminal
     Stripe Terminal extends the merchant's online presence into the physical world, enabling merchants to build in-person checkout. Built with modern retailers and platforms in mind, Terminal helps unify online and offline channels with flexible developer tools, pre-certified card readers, and cloud-based hardware management. 
-    <sup><a href="#1">[3]</a></sup>
+    <sup><a href="#3">[3]</a></sup>
     
     * Connect
     Stripe Connect is a set of programmable APIs and tools that facilitate payments, build a marketplace, and payout sellers or service providers globally—all while having Stripe handles payments compliance. 
+    
     <sup><a href="#4">[4]</a></sup>
     It  basically routes payments between multiple parties.
     * Billing 
-Stripe Billing is the fastest way for businesses to bill customers with subscriptions or invoices. Captures more revenue, supports new products or business models and accepts recurring payments globally. <sup>[(Stripe Billing)]( https://stripe.com/billing)</sup> 
+Stripe Billing is the fastest way for businesses to bill customers with subscriptions or invoices. Captures more revenue, supports new products or business models and accepts recurring payments globally. <sup><a href="#5">[5]</a></sup>
+
+
 * Business Operations
     * Radar
     Stripe Radar is a tool that uses adaptable machine learning to fight fraud and increase the conversion rate of transactions using the Stripe network. It is offered as built-in, with no additional set up. Radar helps to distinguish fraudsters from legitimate customers and applies Dynamic 3D Secure to high-risk payments.
@@ -346,16 +349,19 @@ There can still be disputes between parties despite being a very secure technolo
 <a name="1"></a>1. 
 [crunchbase](https://www.crunchbase.com/organization/stripe/company_financials)
 
-<a name="1"></a>2. 
+<a name="2"></a>2. 
 [Stripe Payments](https://stripe.com/payments)
 
 <a name="3"></a>3. 
 [Stripe Terminal](https://stripe.com/terminal)
 
-<a name="3"></a>3. 
+<a name="4"></a>4. 
 [Stripe Connect](https://stripe.com/connect)
 
+<a name="5"></a>5. 
+[Stripe Billing](https://stripe.com/billing)
 
+ 
 
 
 [fundera](https://www.fundera.com/blog/stripe-vs-braintree#:~:text=Another%20critical%20difference%20between%20Stripe%20vs.%20Braintree%20is,payments,%20and%20groups%20together%20merchants%20when%20conducting%20transactions)
