@@ -12,7 +12,7 @@ The idea of the company originated when the brothers debated why accepting payme
 They set forth to solve this problem by aiming to make it simple and user-friendly. They strategically focused on the software developers as their target audience and set out to develop a suite of APIs that was powerful yet easy to integrate with just a few lines of code. Their earlier success was largely due to its appeal to the development community.
 Stripe has raised $1.6 billion over 14 rounds from 8 lead Investors and 31 investors in all.
 Stripe has a post-money valuation in the range of $10B+ as of Apr 16, 2020. 
-<sup><a herf="1">[1]</a></sup>
+<sup><a href="1">[1]</a></sup>
 
 
 ### ***Overview***
