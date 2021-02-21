@@ -12,7 +12,7 @@ The idea of the company originated when the brothers debated why accepting payme
 They set forth to solve this problem by aiming to make it simple and user-friendly. They strategically focused on the software developers as their target audience and set out to develop a suite of APIs that was powerful yet easy to integrate with just a few lines of code. Their earlier success was largely due to its appeal to the development community.
 Stripe has raised $1.6 billion over 14 rounds from 8 lead Investors and 31 investors in all.
 Stripe has a post-money valuation in the range of $10B+ as of Apr 16, 2020. 
-<sup><a href="1">[1]</a></sup>
+<sup><a href="#1">[1]</a></sup>
 
 
 ### ***Overview***
@@ -339,10 +339,9 @@ There can still be disputes between parties despite being a very secure technolo
 
 ## **References**
 
-<a name="1"></a>1. 
+<a name="1"></a>[1]. 
 [crunchbase](https://www.crunchbase.com/organization/stripe/company_financials)
-    <sup>[1](https://www.crunchbase.com/organization/stripe/company_financials)</sup>
-
+  
 [fundera](https://www.fundera.com/blog/stripe-vs-braintree#:~:text=Another%20critical%20difference%20between%20Stripe%20vs.%20Braintree%20is,payments,%20and%20groups%20together%20merchants%20when%20conducting%20transactions)
 https://www.cbinsights.com/research/report/
 
