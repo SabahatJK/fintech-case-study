@@ -44,7 +44,7 @@ Stripe Billing is the fastest way for businesses to bill customers with subscrip
     * Radar
     Stripe Radar is a tool that uses adaptable machine learning to fight fraud and increase the conversion rate of transactions using the Stripe network. It is offered as built-in, with no additional set up. Radar helps to distinguish fraudsters from legitimate customers and applies Dynamic 3D Secure to high-risk payments.
     * Sigma
-    Stripe Sigma is an analytical tool that makes transactional data available within an interactive SQL environment in the Dashboard. Sigma creates fully customized reports using information about payments, subscriptions, customers, payouts, and more.<a href="#6">[6]</a></sup><sup>
+    Stripe Sigma is an analytical tool that makes transactional data available within an interactive SQL environment in the Dashboard. Sigma creates fully customized reports using information about payments, subscriptions, customers, payouts, and more.<sup><a href="#6">[6]</a></sup>
         
     *Dashboard:
     Stripe Dashboard offers a user interface to manage and configure the Stripe account. It is used to manages payments and refunds, respond to disputes, monitor integration, and more.<sup><a href="#7">[7]</a></sup> 
@@ -53,8 +53,7 @@ Stripe Billing is the fastest way for businesses to bill customers with subscrip
     Stripe  Atlas is a platform that offers a seamless and safe way to launch a company in the U.S (Delaware) from anywhere in the globe. With just $500, a company can be formed, with no lengthy paperwork, legal complexity, and numerous fees. <sup><a href="#8">[8]</a></sup>
     
     * Climate
-    With Stripe Climate, customers can direct a fraction of their revenue to help scale emerging carbon removal technologies in just a few clicks. Join a growing group of ambitious businesses changing the course of carbon removal. 
-    <sup><a href="#9">[9]</a></sup>
+    With Stripe Climate, customers can direct a fraction of their revenue to help scale emerging carbon removal technologies in just a few clicks. Join a growing group of ambitious businesses changing the course of carbon removal.  <sup><a href="#9">[9]</a></sup>
     
  * Financial Services
     * Corporate Cards & Issuing
@@ -64,15 +63,11 @@ Stripe Billing is the fastest way for businesses to bill customers with subscrip
     <sup><a href="#12">[12]</a></sup>
     
     * Treasury
-    Stripe Treasury is a banking-as-a-service API that lets you embed financial services in your marketplace or platform. With a single integration, enable your customers to hold funds, pay bills, earn interest, and manage cash flow. <sup>([Stripe Blog)](https://stripe.com/treasury)</sup
+    Stripe Treasury is a banking-as-a-service API that lets you embed financial services in your marketplace or platform. With a single integration, enable your customers to hold funds, pay bills, earn interest, and manage cash flow. <sup><a href="#13">[13]</a></sup>
+    
+    
     * Capital
-Stripe Capital provides access to fast, flexible financing so you can manage cash flows and invest in growth.  <sup>[(Stripe Blog)](https://stripe.com/capital
-)</sup> 
-
-
-
-
-
+Stripe Capital provides access to fast, flexible financing so you can manage cash flows and invest in growth.  <sup><a href="#14">[14]</a></sup> 
 
 
 ### ***Business and Revenue Model***
@@ -86,8 +81,11 @@ Its acquisition of Africa’s biggest payment processor – PayStack and funding
 ## **Business Activities**
 
 ### ***Intended Customers and Market Share***
-Millions of companies of all sizes—from startups to Fortune 500s—use Stripe’s software and APIs to accept payments, send payouts, and manage their businesses online <sup>[(Stripe)](https://www.Stripe.com)</sup>. Some well-known companies that use stripe are Amazon, Google, Zoom, Slack, and many others. 
-Stripes market share in is 18.54% <sup>[(datanyze)]( https://www.datanyze.com/market-share/payment-processing--26/stripe-market-share)</sup>. It currently has 151,211 websites. <sup>[(datanyze)]( https://www.datanyze.com/market-share/payment-processing--26/stripe-market-share)</sup>
+Millions of companies of all sizes—from startups to Fortune 500s—use Stripe’s software and APIs to accept payments, send payouts, and manage their businesses online.
+<sup><a href="#15">[15]</a></sup>Some well-known companies that use stripe are Amazon, Google, Zoom, Slack, and many others. 
+Stripes market share in is 18.54%. It currently has 151,211 websites. <sup><a href="#16">[16]</a></sup>
+
+
 
 **Industries that use Stripe**
 ![Industries Served by Stripe](https://enlyft.com/tech/static/images/static_charts/stripe_industry.png)
@@ -387,7 +385,21 @@ There can still be disputes between parties despite being a very secure technolo
 <a name="12"></a>12. 
 [Stripe Docs]https://stripe.com/docs/issuing/cards)
 
-    
+<a name="13"></a>13. 
+[Stripe Treasury](https://stripe.com/treasury)
+
+<a name="14"></a>14. 
+[Stripe Capital](https://stripe.com/Capital)
+
+<a name="15"></a>15. 
+[Stripe](https://stripe.com)
+
+<a name="16"></a>16. 
+[datanyze Marketshare - Stripe](https://www.datanyze.com/market-share/payment-processing--26/stripe-market-share)
+
+
+
+   
 
 [fundera](https://www.fundera.com/blog/stripe-vs-braintree#:~:text=Another%20critical%20difference%20between%20Stripe%20vs.%20Braintree%20is,payments,%20and%20groups%20together%20merchants%20when%20conducting%20transactions)
 https://www.cbinsights.com/research/report/
