@@ -92,12 +92,18 @@ Stripes market share in is 18.54%. It currently has 151,211 websites. <sup><a hr
 
 **Distribution of Companies that use stripe based upon revenue.**
 
-Of all the customers that are using Stripe, a majority (73%) are small (<$50M), 7% are large (>$1000M) and 14% are medium-sized.<sup>[(enlyft)](https://enlyft.com/tech/products/stripe)</sup>
+Of all the customers that are using Stripe, a majority (73%) are small (<$50M), 7% are large (>$1000M) and 14% are medium-sized.
+<sup><a href="#17">[17]</a></sup>
+
+
 ![Distribution of Stripe Customers based upon revenue](https://enlyft.com/tech/static/images/static_charts/stripe_revenue_range.png)
 
 **Distribution of Stripe Customers based upon Country.**
 
-43% of Stripe customers are in United States and 7% are in United Kingdom. <sup>[(enlyft)](https://enlyft.com/tech/products/stripe)</sup>
+43% of Stripe customers are in United States and 7% are in United Kingdom. 
+<sup><a href="#17">[17]</a></sup>
+
+
 ![Distribution of Stripe Customers based Upon Country](https://enlyft.com/tech/static/images/static_charts/stripe_country.png)
 
 ### ***How Stripe distinguishes Itself***
@@ -109,7 +115,9 @@ Another big advantage stripe has is that it has extensive integration with exist
 Accepting payments over the web has been a complicated and cumbersome process. The online merchants had to set up a merchant account, which could take weeks and had complexities like regulations, fees, compliance standards, and more. It became increasingly even more complicated for international transactions.  Furthermore, the company had to underwrite risk and was responsible for the fraudulent transaction and returned items and face challenges with validating the buyer’s Identity with “card-not-present” transactions”.  All these challenges resulted in higher processing fees.  As more businesses turned to E-commerce, it created a need for a less complicated way to accept payments online easily and simply. 
 Stripe was an early user of PayFac and uses it to onboard merchants under its master merchant account. It acted as both the payment processor and as a payment gateway and communicated directly with the card network. Online merchants could now set up and accept payments instantaneously. Furthermore, Stripe assumes the risk of loss associated with fraud, chargeback, and AML. Stripe also provides tools for reporting (Its Sigma product) and a dashboard.  Stripe takes the burden of compliance and security of the merchants.
 Online merchants have the challenge of “cart abandonment”. This means it does not result in checkout conversion. This could be because of various reasons, on the payment processor end it could be because the user did not find its preferred payment method at checkout, the checkout process is not straightforward, or the user’s card is deemed fraudulent and/or extra complicated verification is required. Stripe solves this problem by making the checkout as seamless as possible.  It supports almost all payment methods from credit cards to e-wallets to ACH. It also uses the preferred payment method of a region i.e. AliPay or WebPay in china. This helps merchants to broaden their client base globally.  Stripe uses 3D secure 2.0 to authenticate high-risk users to provide frictionless authentication were supported by the issuing bank.  3D secure 2, uses the issuing bank’s app to verify, either using a fingerprint or even facial recognition.  
-Another problem that the merchant faces if of chargeback. A chargeback is demanded by the issuing credit card to reverse a certain transaction. This is different from a refund, where a merchant requests to reverse a transaction. The most common chargeback is the customer complaining to the issuing bank that their card is used fraudulently.  In chargeback, the customer gets his money back at the loss of a merchant. Besides the chargeback itself, the merchant has to pay the various fee and fines associated with the chargeback.  It’s estimated that every dollar charged back actually costs the merchant 2.40 <sup> [(verifi.com)](https://www.verifi.com/in-the-news/much-chargeback-fee/)</sup>.  Disputing chargebacks are time-consuming and cumbersome. Chargebacks carry a large risk to the merchants. Stripe solves this problem by offering Chargeback protection for a fee - just 0.4% per transaction.  Stripe uses its Radar tool to block most fraudulent transactions at checkout, cutting down the risk of chargeback. 
+Another problem that the merchant faces if of chargeback. A chargeback is demanded by the issuing credit card to reverse a certain transaction. This is different from a refund, where a merchant requests to reverse a transaction. The most common chargeback is the customer complaining to the issuing bank that their card is used fraudulently.  In chargeback, the customer gets his money back at the loss of a merchant. Besides the chargeback itself, the merchant has to pay the various fee and fines associated with the chargeback.  It’s estimated that every dollar charged back actually costs the merchant 2.40.<sup><a href="#18">[18]</a></sup>
+
+ Disputing chargebacks are time-consuming and cumbersome. Chargebacks carry a large risk to the merchants. Stripe solves this problem by offering Chargeback protection for a fee - just 0.4% per transaction.  Stripe uses its Radar tool to block most fraudulent transactions at checkout, cutting down the risk of chargeback. 
 Two-sided marketplace (i.e. that provide product or services but also serve as a platform for people to contract to provide those products and services like - Lyft (provides a service rides and drivers as a contractor to provide the rides)  have the challenge of paying out on-demand. It takes several days for the contractors to get paid for the service they had already provided. Stripe solves this problem by its Instant Payouts. As soon as a transaction is guaranteed, the contractors get paid. Stripe made this possible by making deals with VISA and MasterCard and uses fast payment rail.
 
 ### ***Technology Stack***
@@ -123,7 +131,8 @@ Broadly Stripe architecture is built upon three layers. Each layer is built on S
 * Stripe Server - hosting the API. These are in actual sense multiple load balancing  servers running on cloud infrastructure
 
 
-![Stripe Overview Architecture for .Net](Stripe-Net-Architecture.png)<sup>[(plurarSight)](./Stripe-Net-Architecture.png)</sup>
+![Stripe Overview Architecture for .Net](Stripe-Net-Architecture.png)
+[Source : plurarSight](./Stripe-Net-Architecture.png)
 
 The Client posts credit card information to the stripe server via HTTPS. The Stripes API stores this information and returns a single-use token to the client. The browser then posts this token to the merchant application, which then calls the Stripe Server using the API to charge the card represented by the token. The Stripe server returns a JSON charge object. The merchant server app sends a confirmation/denial page back to the client browser. So the credit card never passed to the merchant server, which takes the burden of compliance of the merchants.
 
@@ -131,7 +140,8 @@ The Client posts credit card information to the stripe server via HTTPS. The Str
 
 #### **Stripe APIs**
 
-Stripe APIs are built in Ruby language using Restful architecture. APIs have predictable resource-oriented URLs, accept form-encoded request bodies, return JSON-encoded responses, and uses standard HTTP response codes, authentication, and verbs. <sup>[(Stripe)](https://stripe.com/docs/api)</sup>. It uses API-keys for authentication requests. There are two types of API keys, Publishable and Secret. The publishable keys are public keys used to identify the customer with Stripe on client-facing code such as stripe.js, it has access to limited strips API requests. The secret key, as the name suggests is confidential and only stored on the merchant's server, it can be used to perform any API request with stripe.
+Stripe APIs are built in Ruby language using Restful architecture. APIs have predictable resource-oriented URLs, accept form-encoded request bodies, return JSON-encoded responses, and uses standard HTTP response codes, authentication, and verbs. <sup><a href="#19">[19]</a></sup>
+ It uses API-keys for authentication requests. There are two types of API keys, Publishable and Secret. The publishable keys are public keys used to identify the customer with Stripe on client-facing code such as stripe.js, it has access to limited strips API requests. The secret key, as the name suggests is confidential and only stored on the merchant's server, it can be used to perform any API request with stripe.
 
 #### **Client Libraries**
 
@@ -140,14 +150,14 @@ such as Ruby, Python, PHP, Java, Node.js, Go and .Net, Android and iOS.
 
 #### **Database and NOSql storage**
 
-Stripe uses Postgres, Apache Hadoop and Redis<sup>[techstack](https://techstacks.io/stacks/stripe/) 
-</sup>.
+Stripe uses Postgres, Apache Hadoop and Redis. <sup><a href="#20">[20]</a></sup>
 
-Postgres is a free and open-source relational database management system emphasizing extensibility and SQL compliance. <sup>[(Wikipedia)](https://en.wikipedia.org/wiki/PostgreSQL)</sup>
 
-Apache Hadoop. Hadoop is a collection of open-source software utilities that facilitates using a network of many computers to solve problems involving massive amounts of data and computation. It provides a software framework for distributed storage and processing of big data using the MapReduce programming model. <sup>[(Wikipedia)](https://en.wikipedia.org/wiki/Hadoop)</sup>
+Postgres is a free and open-source relational database management system emphasizing extensibility and SQL compliance. <sup><a href="#21">[21]</a></sup>
 
-Redis is an in-memory data structure store, used as a distributed, in-memory key–value database, cache and message broker, with optional durability. Redis supports different kinds of abstract data structures, such as strings, lists, maps, sets, sorted sets, HyperLogLogs, bitmaps, streams, and spatial indexes. <sup>[(Wikipedia)](https://en.wikipedia.org/wiki/Redis)</sup>
+Apache Hadoop. Hadoop is a collection of open-source software utilities that facilitates using a network of many computers to solve problems involving massive amounts of data and computation. It provides a software framework for distributed storage and processing of big data using the MapReduce programming model. <sup><a href="#22">[22]</a></sup>
+
+Redis is an in-memory data structure store, used as a distributed, in-memory key–value database, cache and message broker, with optional durability. Redis supports different kinds of abstract data structures, such as strings, lists, maps, sets, sorted sets, HyperLogLogs, bitmaps, streams, and spatial indexes. <sup><a href="#23">[23]</a></sup>
 
 #### **Cloud/Hardware Infrastructure**
 
@@ -155,9 +165,10 @@ Stripe uses Amazon Cloud Services - AWS. AWS provides the backend infrastructure
 
 Amazon Route 53 is a scalable and highly available Domain Name System service. 
 
-Amazon EC2 - Elastic Compute Cloud is a part of Amazon.com's cloud-computing platform, Amazon Web Services, that allows users to rent virtual computers on which to run their computer applications. EC2 encourages the scalable deployment of applications by providing a web service through which a user can boot an Amazon Machine Image to configure a virtual machine, which Amazon calls an "instance", containing any software desired. A user can create, launch, and terminate server-instances as needed, paying by the second for active servers – hence the term "elastic". EC2 provides users with control over the geographical location of instances that allows for latency optimization and high levels of redundancy. In November 2010, Amazon switched its own retail website platform to EC2 and AWS.<sup>[(Wikipedia)](https://en.wikipedia.org/wiki/Amazon_Elastic_Compute_Cloud)</sup>
+Amazon EC2 - Elastic Compute Cloud is a part of Amazon.com's cloud-computing platform, Amazon Web Services, that allows users to rent virtual computers on which to run their computer applications. EC2 encourages the scalable deployment of applications by providing a web service through which a user can boot an Amazon Machine Image to configure a virtual machine, which Amazon calls an "instance", containing any software desired. A user can create, launch, and terminate server-instances as needed, paying by the second for active servers – hence the term "elastic". EC2 provides users with control over the geographical location of instances that allows for latency optimization and high levels of redundancy. In November 2010, Amazon switched its own retail website platform to EC2 and AWS.
+ <sup><a href="#24">[24]</a></sup>
 
-Amazon S3 or Amazon Simple Storage Service is a service offered by Amazon Web Services that provides object storage through a web service interface. Amazon S3 uses the same scalable storage infrastructure that Amazon.com uses to run its global e-commerce network. Amazon S3 can be employed to store any type of object which allows for uses like storage for Internet applications, backup and recovery, disaster recovery, data archives, data lakes for analytics, and hybrid cloud storage. <sup>[(Wikipedia)](https://en.wikipedia.org/wiki/Amazon_S3)</sup>
+Amazon S3 or Amazon Simple Storage Service is a service offered by Amazon Web Services that provides object storage through a web service interface. Amazon S3 uses the same scalable storage infrastructure that Amazon.com uses to run its global e-commerce network. Amazon S3 can be employed to store any type of object which allows for uses like storage for Internet applications, backup and recovery, disaster recovery, data archives, data lakes for analytics, and hybrid cloud storage.  <sup><a href="#25">[25]</a></sup>
 
 
 #### **Machine Learning**
@@ -195,7 +206,7 @@ Some trends and innovations of the payment processing industry  over the past de
 ## **Results** 
 ### ***Impact of Stripe***
 Stripe has had a huge impact on the payments industry. It was one of the first to identify a need and fulfill it. Stripe has helped online merchants to minimize the cost of building, running, and maintaining their own payment solutions and improve the quality of the checkout experience. It has helped increase checkout conversion rates, reach new global markets, accept alternative payment methods, and streamlined the integration of partners and sellers.
-Customers reported increase in revenues by 6.7%, developer increase in productivity by 59%, unplanned Outages decreased by  81%  and 24% lower cost of operations. <sup>[(Stripe)](https://www.Stripe.com)</sup> 
+Customers reported increase in revenues by 6.7%, developer increase in productivity by 59%, unplanned Outages decreased by  81%  and 24% lower cost of operations.<sup><a href="#15">[15]</a></sup> 
 
 
 ### ***Core Metrics***
@@ -212,7 +223,7 @@ Since the payment processor domain is primarily based upon charging the customer
 9.  Uptime (% of the time the payment processor is up & running)
 
 Stripe, being a private company, does not have much information about the KPIs mentioned above. 
-Some KPis that paypal (a company in the same domain) uses are as follows: <sup>[(fool.com)](https://www.fool.com/investing/general/2016/03/28/key-metrics-how-paypal-boosts-transaction-volume.aspx)</sup>
+Some KPIs that paypal (a company in the same domain) uses are as follows:<sup><a href="#26">[26]</a></sup> 
 
 
 1. Total Payment Volume: a measure of the dollar volume transacted on the platform. Payments processors strive to consistently increase TPV.  This can be done by paying close attention to the other two key metrics: 
@@ -225,7 +236,7 @@ Some KPis that paypal (a company in the same domain) uses are as follows: <sup>[
 
 ### ***Comparisiom of Stripe with Competitors***
 #### ***Stripe Vs Paypal***
-Although PayPal is the leading company in the payment processing domain, It holds a market share of 54.5% with 445,763 websites using its platform. <sup>[(datanyze.com)](https://www.datanyze.com/market-share/payment-processing--26/paypal-market-share)</sup>, Stripe is growing at a very fast pace. 
+Although PayPal is the leading company in the payment processing domain, It holds a market share of 54.5% with 445,763 websites using its platform. <sup><a href="#27">[27]</a></sup> Stripe is growing at a very fast pace. 
 PayPal and Stripe both offer similar services and products, similar fee structure, reliability, security, and add-on services/products and tools. Which company is preferred is based upon the merchant needs, country, and industry.
 
 ##### **Ease of Use & Customizability**
@@ -279,7 +290,7 @@ Stripe and Paypal have similar fee structures.
 
 #### ***Stripe Vs BrainTree***
 
-BrainTree (a subsidiary of PayPal) is the leading competitorStripe. It holds a market share of 2.21% with 18,048 websites using its platform. <sup>[(datanyze.com)](hthttps://www.datanyze.com/market-share/payment-processing--26/braintree-market-share)</sup>
+BrainTree (a subsidiary of PayPal) is the leading competitorStripe. It holds a market share of 2.21% with 18,048 websites using its platform. <sup><a href="#28">[28]</a></sup>
 
 Braintree and Stripe both offer similar services and products, similar fee structure, reliability, security, and add-on services/products and tools. Which company is preferred is based upon the merchant needs, country, and industry.
 
@@ -302,7 +313,8 @@ With Braintree, a merchant can sign up for either a full-stack payment (both pro
 Braintree has a much better support service than Stripe.
 
 #### ***Stripe Vs Square***
-Square is the leading competitor of Stripe. It holds a market share of 2.34% with 19,139 websites using its platform. <sup>[(datanyze.com)](https://www.datanyze.com/market-share/payment-processing--26/square-payments-market-share)</sup>
+Square is the leading competitor of Stripe. It holds a market share of 2.34% with 19,139 websites using its platform. <sup><a href="#29">[29]</a></sup>
+
 
 Stripe and Square target similar-sized companies that do not pay monthly transactions, do not want to be burdened by compliance issues, expensive payment processing equipment, and complicated contracts.  
 Both companies offer similar, automated direct deposits within a few days of processing each transaction, so clients will have fast access to cash after each payment takes
@@ -330,9 +342,11 @@ Stripe launched its POS solution called Stripe Terminal in 2018. Before that Str
 Stripe discontinued accepting bitcoin in 2018, citing its volatility and time for settlement as major issues. With Elton Musk investing in bitcoin and IBM's launch of its StableCoin, digital currency is set to make a comeback without the volatility of bitcoin of the old days. It will be advisable for Stripe to re-introduce support for cryptocurrency. Paypal has already announced its intention to support StableCoin. 
 
 What technologies would this additional product or service utilize?
-The foundation of Cryptocurrency is Blockchain.  Blockchain.com (formerly Blockchain.info) is a cryptocurrency blockchain explorer service, as well as a cryptocurrency wallet and a cryptocurrency exchange supporting Bitcoin, Bitcoin Cash, and Ethereum. They also provide Bitcoin data charts, stats, and market information. <sup>[(Wikipedia)](https://en.wikipedia.org/wiki/Blockchain.com)</sup> 
+The foundation of Cryptocurrency is Blockchain.  Blockchain.com (formerly Blockchain.info) is a cryptocurrency blockchain explorer service, as well as a cryptocurrency wallet and a cryptocurrency exchange supporting Bitcoin, Bitcoin Cash, and Ethereum. They also provide Bitcoin data charts, stats, and market information.
+ <sup><a href="#30">[30]</a></sup>
 
-Blockchain would be appropriate for payment processing for the following reasons  <sup>[(techblogcorner)](https://techblogcorner.com/2020/03/12/benefits-of-using-blockchain-based-payment-gateways/#:~:text=%206%20Benefits%20of%20Using%20Blockchain%20Based%20Payment,has%20still%20left%20a%20scale%20of...%20More)</sup>
+
+Blockchain would be appropriate for payment processing for the following reasons<sup><a href="#31">[31]</a></sup>:  
 * Speed up to cross border payment processing : 
 * Reduce International Payment Processing Fee/Cost
 The foreign exchange rate, tax charges, international charges, and international payment fees, make cross-border payments in different currencies very expensive. Although not free with blockchain, as blockchain will also charge a fee, but it will greatly reduce the international payment currency cost.
@@ -383,7 +397,7 @@ There can still be disputes between parties despite being a very secure technolo
 [Stripe Corporate Card](https://stripe.com/docs/corporate-card)
 
 <a name="12"></a>12. 
-[Stripe Docs]https://stripe.com/docs/issuing/cards)
+[Stripe Docs](https://stripe.com/docs/issuing/cards)
 
 <a name="13"></a>13. 
 [Stripe Treasury](https://stripe.com/treasury)
@@ -397,18 +411,58 @@ There can still be disputes between parties despite being a very secure technolo
 <a name="16"></a>16. 
 [datanyze Marketshare - Stripe](https://www.datanyze.com/market-share/payment-processing--26/stripe-market-share)
 
+<a name="17"></a>17. 
+[enlyft- Stripe](https://enlyft.com/tech/products/stripe)
+
+<a name="18"></a>18. 
+[verifi.com - Chargeback](https://www.verifi.com/in-the-news/much-chargeback-fee/)
+
+<a name="19"></a>19. 
+[Stripe - API Docs](https://stripe.com/docs/api)
+
+<a name="20"></a>20. 
+[techstack - Stripe](https://techstacks.io/stacks/stripe/)
+
+<a name="21"></a>21. 
+[Wikipedia - PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL)
+
+<a name="22"></a>22. [Wikipedia - Hadoop](https://en.wikipedia.org/wiki/Hadoop)
 
 
-   
+<a name="23"></a>23. 
+[Wikipedia - Redis](https://en.wikipedia.org/wiki/Redis)
 
-[fundera](https://www.fundera.com/blog/stripe-vs-braintree#:~:text=Another%20critical%20difference%20between%20Stripe%20vs.%20Braintree%20is,payments,%20and%20groups%20together%20merchants%20when%20conducting%20transactions)
-https://www.cbinsights.com/research/report/
 
-https://www.cbinsights.com/
-https://www.cbinsights.com/research/report/stripe-teardown/
-https://www.brainyquote.com/quotes/john_collison_542589
-https://www.investopedia.com/terms/c/contactless-payment.asp
-https://techcrunch.com/2017/06/01/stripe-sigma-data-analytics/#:~:text=payments%20data%20%7C%20TechCrunch-,Stripe%20launches%20Sigma%2C%20a%20new%20analytics%20tool,help%20businesses%20track%20payments%20data&text=Sigma%20is%20a%20fully%20customizable,their%20own%20data%20analytics%20tooling.
+<a name="24"></a>24. 
+[Wikipedia - Amazon Elastic Compute Cloud](https://en.wikipedia.org/wiki/Amazon_Elastic_Compute_Cloud)
+
+<a name="25"></a>25. 
+[Wikipedia - Amazon S3](https://en.wikipedia.org/wiki/Amazon_S3)
+
+<a name="26"></a>26. 
+[fool.com](https://www.fool.com/investing/general/2016/03/28/key-metrics-how-paypal-boosts-transaction-volume.aspx)
+
+<a name="27"></a>27. 
+[datanyze.com - PayPal](https://www.datanyze.com/market-share/payment-processing--26/paypal-market-share)
+
+<a name="28"></a>28. 
+[datanyze.com - Braintree](hthttps://www.datanyze.com/market-share/payment-processing--26/braintree-market-share)
+
+<a name="29"></a>29. 
+[datanyze.com - Braintree](hthttps://www.datanyze.com/market-share/payment-processing--26/square-payments-market-share)
+
+<a name="30"></a>30 
+[Wikipedia - Blockchain](https://en.wikipedia.org/wiki/Blockchain.com)
+
+<a name="31"></a>31 
+[techblogcorner - Blockchain](https://techblogcorner.com/2020/03/12/benefits-of-using-blockchain-based-payment-gateways/#:~:text=%206%20Benefits%20of%20Using%20Blockchain%20Based%20Payment,has%20still%20left%20a%20scale%20of...%20More)
+
+ 
+32. [fundera](https://www.fundera.com/blog/stripe-vs-braintree#:~:text=Another%20critical%20difference%20between%20Stripe%20vs.%20Braintree%20is,payments,%20and%20groups%20together%20merchants%20when%20conducting%20transactions)
+33. https://www.cbinsights.com/research/report/stripe-teardown/
+34. https://www.brainyquote.com/quotes/john_collison_542589
+35. https://www.investopedia.com/terms/c/contactless-payment.asp
+36. https://techcrunch.com/2017/06/01/stripe-sigma-data-analytics/#:~:text=payments%20data%20%7C%20TechCrunch-,Stripe%20launches%20Sigma%2C%20a%20new%20analytics%20tool,help%20businesses%20track%20payments%20data&text=Sigma%20is%20a%20fully%20customizable,their%20own%20data%20analytics%20tooling.
 
 
 
