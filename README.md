@@ -364,8 +364,7 @@ There can still be disputes between parties despite being a very secure technolo
 
 ## **References**
 
-<a name="1"></a>1. 
-[crunchbase](https://www.crunchbase.com/organization/stripe/company_financials)
+1. <a name="1"></a>https://www.crunchbase.com/organization/stripe/company_financials
 
 <a name="2"></a>2. 
 [Stripe Payments](https://stripe.com/payments)
