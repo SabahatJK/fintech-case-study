@@ -44,18 +44,25 @@ Stripe Billing is the fastest way for businesses to bill customers with subscrip
     * Radar
     Stripe Radar is a tool that uses adaptable machine learning to fight fraud and increase the conversion rate of transactions using the Stripe network. It is offered as built-in, with no additional set up. Radar helps to distinguish fraudsters from legitimate customers and applies Dynamic 3D Secure to high-risk payments.
     * Sigma
-    Stripe Sigma is an analytical tool that makes transactional data available within an interactive SQL environment in the Dashboard. Sigma creates fully customized reports using information about payments, subscriptions, customers, payouts, and more.<sup><a href="#6">[6]</a></sup>
+    Stripe Sigma is an analytical tool that makes transactional data available within an interactive SQL environment in the Dashboard. Sigma creates fully customized reports using information about payments, subscriptions, customers, payouts, and more.<a href="#6">[6]</a></sup><sup>
         
     *Dashboard:
-    Stripe Dashboard offers a user interface to manage and configure the Stripe account. It is used to manages payments and refunds, respond to disputes, monitor integration, and more..<sup><a href="#7">[7]</a></sup> 
+    Stripe Dashboard offers a user interface to manage and configure the Stripe account. It is used to manages payments and refunds, respond to disputes, monitor integration, and more.<sup><a href="#7">[7]</a></sup> 
     
     *Atlas
-    Stripe  Atlas is a platform that offers a seamless and safe way to launch a company in the U.S (Delaware) from anywhere in the globe. With just $500, a company can be formed, with no lengthy paperwork, legal complexity, and numerous fees. <sup>[(Stripe Atlas)](https://stripe.com/atlas)</sup><sup> [(Stripe Atlas Docs)](https://stripe.com/docs/atlas)</sup>
+    Stripe  Atlas is a platform that offers a seamless and safe way to launch a company in the U.S (Delaware) from anywhere in the globe. With just $500, a company can be formed, with no lengthy paperwork, legal complexity, and numerous fees. <sup><a href="#8">[8]</a></sup>
+    
     * Climate
-    With Stripe Climate, customers can direct a fraction of their revenue to help scale emerging carbon removal technologies in just a few clicks. Join a growing group of ambitious businesses changing the course of carbon removal. <sup>[(Stripe Climate)](https://stripe.com/climate)</sup>
+    With Stripe Climate, customers can direct a fraction of their revenue to help scale emerging carbon removal technologies in just a few clicks. Join a growing group of ambitious businesses changing the course of carbon removal. 
+    <sup><a href="#9">[9]</a></sup>
+    
  * Financial Services
     * Corporate Cards & Issuing
-    The Stripe Corporate Card are virtual and physical cards designed to instantly create, manages, and distribute payment cards to corporations. It is designed for startups and fast-growing companies.  It helps corporations to control spending, reconcile expenses automatically using software like Expensify, and earn extra cashback where spend the most each month.<sup>[(Stripe Blog)](https://stripe.com/blog/introducing-stripe-corporate-card)</sup><sup> [(Stripe Corporate Card)](https:/https://stripe.com/corporate-card)</sup><sup>[(Stripe Docs)](https://stripe.com/docs/issuing/cards)</sup>
+    The Stripe Corporate Card are virtual and physical cards designed to instantly create, manages, and distribute payment cards to corporations. It is designed for startups and fast-growing companies.  It helps corporations to control spending, reconcile expenses automatically using software like Expensify, and earn extra cashback where spend the most each month.
+    <sup><a href="#10">[10]</a></sup> 
+    <sup><a href="#11">[11]</a></sup>
+    <sup><a href="#12">[12]</a></sup>
+    
     * Treasury
     Stripe Treasury is a banking-as-a-service API that lets you embed financial services in your marketplace or platform. With a single integration, enable your customers to hold funds, pay bills, earn interest, and manage cash flow. <sup>([Stripe Blog)](https://stripe.com/treasury)</sup
     * Capital
@@ -366,7 +373,21 @@ There can still be disputes between parties despite being a very secure technolo
 <a name="7"></a>7. 
 [Stripe Dashboard](https://stripe.com/docs/dashboard)
 
+<a name="8"></a>8. 
+[Stripe Atlas](https://stripe.com/docs/Atlas)
+<a name="9"></a>9. 
+[Stripe Climate](https://stripe.com/docs/climate)
 
+<a name="10"></a>10. 
+[Stripe Blog](https://stripe.com/blog/introducing-stripe-corporate-card)
+
+<a name="11"></a>11. 
+[Stripe Corporate Card](https://stripe.com/docs/corporate-card)
+
+<a name="12"></a>12. 
+[Stripe Docs]https://stripe.com/docs/issuing/cards)
+
+    
 
 [fundera](https://www.fundera.com/blog/stripe-vs-braintree#:~:text=Another%20critical%20difference%20between%20Stripe%20vs.%20Braintree%20is,payments,%20and%20groups%20together%20merchants%20when%20conducting%20transactions)
 https://www.cbinsights.com/research/report/
