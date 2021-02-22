@@ -406,6 +406,9 @@ There can still be disputes between parties despite being a very secure technolo
 40. https://stripe.com/docs
 41. https://www.wikisme.com/stripe-swot/#:~:text=%202)%20Weaknesses%20of%20Stripe:%20%201%20API,processing%20fees%20is%20at%20par%20with...%20More
 42. https://www.wikisme.com/stripe-swot/
+43. https://www.brainyquote.com/quotes/john_collison_542589
+44. https://blog.edesk.com/resources/paypal-vs-stripe/
+45. https://www.vepsun.in/FS/aws-associate/
 
 
 
