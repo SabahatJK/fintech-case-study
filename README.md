@@ -365,103 +365,47 @@ There can still be disputes between parties despite being a very secure technolo
 ## **References**
 
 1. <a name="1"></a>https://www.crunchbase.com/organization/stripe/company_financials
-
-<a name="2"></a>2. 
-[Stripe Payments](https://stripe.com/payments)
-
-<a name="3"></a>3. 
-[Stripe Terminal](https://stripe.com/terminal)
-
-<a name="4"></a>4. 
-[Stripe Connect](https://stripe.com/connect)
-
-<a name="5"></a>5. 
-[Stripe Billing](https://stripe.com/billing)
-
-<a name="6"></a>6. 
-[Stripe Radar](https://stripe.com/radar)
-
-<a name="7"></a>7. 
-[Stripe Dashboard](https://stripe.com/docs/dashboard)
-
-<a name="8"></a>8. 
-[Stripe Atlas](https://stripe.com/docs/Atlas)
-<a name="9"></a>9. 
-[Stripe Climate](https://stripe.com/docs/climate)
-
-<a name="10"></a>10. 
-[Stripe Blog](https://stripe.com/blog/introducing-stripe-corporate-card)
-
-<a name="11"></a>11. 
-[Stripe Corporate Card](https://stripe.com/docs/corporate-card)
-
-<a name="12"></a>12. 
-[Stripe Docs](https://stripe.com/docs/issuing/cards)
-
-<a name="13"></a>13. 
-[Stripe Treasury](https://stripe.com/treasury)
-
-<a name="14"></a>14. 
-[Stripe Capital](https://stripe.com/Capital)
-
-<a name="15"></a>15. 
-[Stripe](https://stripe.com)
-
-<a name="16"></a>16. 
-[datanyze Marketshare - Stripe](https://www.datanyze.com/market-share/payment-processing--26/stripe-market-share)
-
-<a name="17"></a>17. 
-[enlyft- Stripe](https://enlyft.com/tech/products/stripe)
-
-<a name="18"></a>18. 
-[verifi.com - Chargeback](https://www.verifi.com/in-the-news/much-chargeback-fee/)
-
-<a name="19"></a>19. 
-[Stripe - API Docs](https://stripe.com/docs/api)
-
-<a name="20"></a>20. 
-[techstack - Stripe](https://techstacks.io/stacks/stripe/)
-
-<a name="21"></a>21. 
-[Wikipedia - PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL)
-
-<a name="22"></a>22. [Wikipedia - Hadoop](https://en.wikipedia.org/wiki/Hadoop)
-
-
-<a name="23"></a>23. 
-[Wikipedia - Redis](https://en.wikipedia.org/wiki/Redis)
-
-
-<a name="24"></a>24. 
-[Wikipedia - Amazon Elastic Compute Cloud](https://en.wikipedia.org/wiki/Amazon_Elastic_Compute_Cloud)
-
-<a name="25"></a>25. 
-[Wikipedia - Amazon S3](https://en.wikipedia.org/wiki/Amazon_S3)
-
-<a name="26"></a>26. 
-[fool.com](https://www.fool.com/investing/general/2016/03/28/key-metrics-how-paypal-boosts-transaction-volume.aspx)
-
-<a name="27"></a>27. 
-[datanyze.com - PayPal](https://www.datanyze.com/market-share/payment-processing--26/paypal-market-share)
-
-<a name="28"></a>28. 
-[datanyze.com - Braintree](hthttps://www.datanyze.com/market-share/payment-processing--26/braintree-market-share)
-
-<a name="29"></a>29. 
-[datanyze.com - Braintree](hthttps://www.datanyze.com/market-share/payment-processing--26/square-payments-market-share)
-
-<a name="30"></a>30 
-[Wikipedia - Blockchain](https://en.wikipedia.org/wiki/Blockchain.com)
-
-<a name="31"></a>31 
-[techblogcorner - Blockchain](https://techblogcorner.com/2020/03/12/benefits-of-using-blockchain-based-payment-gateways/#:~:text=%206%20Benefits%20of%20Using%20Blockchain%20Based%20Payment,has%20still%20left%20a%20scale%20of...%20More)
-
- 
+2. <a name="2"></a>https://stripe.com/payments
+3. <a name="3"></a>https://stripe.com/terminal
+4. <a name="4"></a>https://stripe.com/connect
+5. <a name="5"></a>https://stripe.com/billing
+6. <a name="6"></a>https://stripe.com/radar
+7. <a name="7"></a>https://stripe.com/docs/dashboard
+8. <a name="8"></a>https://stripe.com/docs/Atlas
+9. <a name="9"></a>https://stripe.com/docs/climate
+10. <a name="10"></a>https://stripe.com/blog/introducing-stripe-corporate-card
+11. <a name="11">https://stripe.com/docs/corporate-card
+12. <a name="12"></a>https://stripe.com/docs/issuing/cards
+13. <a name="13"></a>https://stripe.com/treasury
+14. <a name="14"></a>https://stripe.com/Capital
+15. <a name="15"></a>https://stripe.com
+16. <a name="16"></a>https://www.datanyze.com/market-share/payment-processing--26/stripe-market-share
+17. <a name="17"></a>https://enlyft.com/tech/products/stripe
+18. <a name="18"></a>https://www.verifi.com/in-the-news/much-chargeback-fee/
+19. <a name="19"></a>https://stripe.com/docs/api
+20. <a name="20"></a>https://techstacks.io/stacks/stripe/
+21. <a name="21"></a>(https://en.wikipedia.org/wiki/PostgreSQL
+22. <a name="22"></a>https://en.wikipedia.org/wiki/Hadoop
+23. <a name="23"></a>https://en.wikipedia.org/wiki/Redis
+24. <a name="24"></a>https://en.wikipedia.org/wiki/Amazon_Elastic_Compute_Cloud
+25. <a name="25"></a>https://en.wikipedia.org/wiki/Amazon_S3
+26. <a name="26"></a>https://www.fool.com/investing/general/2016/03/28/key-metrics-how-paypal-boosts-transaction-volume.aspx)
+27. <a name="27"></a>https://www.datanyze.com/market-share/payment-processing--26/paypal-market-share
+28. <a name="28"></a>https://www.datanyze.com/market-share/payment-processing--26/braintree-market-share
+29. <a name="29"></a>https://www.datanyze.com/market-share/payment-processing--26/square-payments-market-share
+30. <a name="30"></a>https://en.wikipedia.org/wiki/Blockchain.com
+31. <a name="31"></a>https://techblogcorner.com/2020/03/12/benefits-of-using-blockchain-based-payment-gateways/#:~:text=%206%20Benefits%20of%20Using%20Blockchain%20Based%20Payment,has%20still%20left%20a%20scale%20of...%20More
 32. [fundera](https://www.fundera.com/blog/stripe-vs-braintree#:~:text=Another%20critical%20difference%20between%20Stripe%20vs.%20Braintree%20is,payments,%20and%20groups%20together%20merchants%20when%20conducting%20transactions)
 33. https://www.cbinsights.com/research/report/stripe-teardown/
 34. https://www.brainyquote.com/quotes/john_collison_542589
 35. https://www.investopedia.com/terms/c/contactless-payment.asp
-36. https://techcrunch.com/2017/06/01/stripe-sigma-data-analytics/#:~:text=payments%20data%20%7C%20TechCrunch-,Stripe%20launches%20Sigma%2C%20a%20new%20analytics%20tool,help%20businesses%20track%20payments%20data&text=Sigma%20is%20a%20fully%20customizable,their%20own%20data%20analytics%20tooling.
+36. https://techcrunch.com/2017/06/01/stripe-sigma-data-analytics/#:~:text=payments%20data%20%7C%20TechCrunch-,Stripe%20launches%20Sigma%2C%20a%20new%20analytics%20tool,help%20businesses%20track%20payments%20data&text=Sigma%20is%20a%20fully%20customizable,their%20own%20data%20analytics%20tooling
+37. https://en.wikipedia.org/wiki/Stripe_company
+38. https://www.startupgrind.com/blog/the-collison-brothers-and-story-behind-the-founding-of-stripe/
+39. https://www.producthunt.com/alternatives/stripe-atlas-pre-launch
+40. https://stripe.com/docs
+41. https://www.wikisme.com/stripe-swot/#:~:text=%202)%20Weaknesses%20of%20Stripe:%20%201%20API,processing%20fees%20is%20at%20par%20with...%20More
+42. https://www.wikisme.com/stripe-swot/
 
 
 
